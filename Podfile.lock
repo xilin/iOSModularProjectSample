@@ -1,0 +1,15 @@
+PODS:
+  - BeeHive (1.5.1)
+  - MGJRouter (0.9.3)
+
+DEPENDENCIES:
+  - BeeHive (~> 1.5.1)
+  - MGJRouter (~> 0.9.3)
+
+SPEC CHECKSUMS:
+  BeeHive: b135a33b3519814ec5d117318d205e10c997450f
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+
+PODFILE CHECKSUM: 8542f291ef3f0d7e7ba2e21035aeffaf51b7b3cb
+
+COCOAPODS: 1.4.0
