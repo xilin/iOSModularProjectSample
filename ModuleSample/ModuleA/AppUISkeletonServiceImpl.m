@@ -6,10 +6,10 @@
 //  Copyright © 2018 maitao. All rights reserved.
 //
 
-#import "AppUISkeletonService.h"
+#import "AppUISkeletonServiceImpl.h"
 #import "HomeViewController.h"
 
-@implementation AppUISkeletonService
+@implementation AppUISkeletonServiceImpl
 
 - (UIViewController *)mainViewController {
     return [HomeViewController new];

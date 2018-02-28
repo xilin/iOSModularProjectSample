@@ -10,7 +10,7 @@
 #import "AppUISkeletonServiceProtocol.h"
 #import <BeeHive/BeeHive.h>
 
-@BeeHiveService(AppUISkeletonServiceProtocol, AppUISkeletonService)
-@interface AppUISkeletonService : NSObject <AppUISkeletonServiceProtocol>
+@BeeHiveService(AppUISkeletonServiceProtocol, AppUISkeletonServiceImpl)
+@interface AppUISkeletonServiceImpl : NSObject <AppUISkeletonServiceProtocol>
 
 @end
