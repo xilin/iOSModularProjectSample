@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"ModuleA";
+    self.title = @"ModuleB";
     self.view.backgroundColor = [UIColor darkGrayColor];
     id<ModuleAServiceProtocol> moduleAService = [[BeeHive shareInstance] createService:@protocol(ModuleAServiceProtocol)];
     NSLog(@"%ld", [moduleAService sampleServiceLikeQuery:@"sample"]);

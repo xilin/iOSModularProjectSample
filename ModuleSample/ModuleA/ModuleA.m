@@ -8,6 +8,7 @@
 
 #import "ModuleA.h"
 #import <BeeHive/BHModuleProtocol.h>
+#import "RouteManager+ModuleA.h"
 
 @interface ModuleA () <BHModuleProtocol>
 
@@ -36,6 +37,8 @@ BH_EXPORT_MODULE(NO)
 
 - (void)modSetUp:(BHContext *)context {
     NSLog(@"ModuleA setup");
+    
+    [[RouteManager shareInstance] registerRouteForModuleA];
 }
 
 @end
