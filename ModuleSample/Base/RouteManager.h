@@ -11,7 +11,8 @@
 #import <MGJRouter/MGJRouter.h>
 
 static NSString *const kRoutePageHome = @"ms://home";
-static NSString *const kRoutePageB = @"ms://moduleB";
+static NSString *const kRoutePageB = @"ms://pageB";
+static NSString *const kRoutePageB1 = @"ms://pageB1";
 
 @interface RouteManager : NSObject
 

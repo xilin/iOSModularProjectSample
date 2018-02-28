@@ -12,4 +12,7 @@
 
 - (void)registerRouteForModuleB;
 
+- (void)goPageB;
+- (void)goPageB1;
+
 @end

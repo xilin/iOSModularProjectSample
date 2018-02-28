@@ -17,10 +17,11 @@
 		35F96F6A204688A7000FC270 /* AppUISkeletonServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F69204688A7000FC270 /* AppUISkeletonServiceImpl.m */; };
 		35F96F6D204689B4000FC270 /* ModuleAServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F6C204689B4000FC270 /* ModuleAServiceImpl.m */; };
 		35F96F7020468CDC000FC270 /* ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F6F20468CDC000FC270 /* ModuleB.m */; };
-		35F96F7320468EC9000FC270 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F7220468EC9000FC270 /* ModuleBViewController.m */; };
+		35F96F7320468EC9000FC270 /* PageBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F7220468EC9000FC270 /* PageBViewController.m */; };
 		35F96F782046950D000FC270 /* RouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F772046950D000FC270 /* RouteManager.m */; };
 		35F96F7B20469716000FC270 /* RouteManager+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F7A20469716000FC270 /* RouteManager+ModuleA.m */; };
 		35F96F7E2046982A000FC270 /* RouteManager+ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F7D2046982A000FC270 /* RouteManager+ModuleB.m */; };
+		35F96F892046A333000FC270 /* PageB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F882046A333000FC270 /* PageB1ViewController.m */; };
 		C29BE3362DDF8570F84B1553 /* libPods-ModuleSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71016093B4AEDF3CC95AA50A /* libPods-ModuleSample.a */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +47,8 @@
 		35F96F6C204689B4000FC270 /* ModuleAServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAServiceImpl.m; sourceTree = "<group>"; };
 		35F96F6E20468CDC000FC270 /* ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleB.h; sourceTree = "<group>"; };
 		35F96F6F20468CDC000FC270 /* ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleB.m; sourceTree = "<group>"; };
-		35F96F7120468EC9000FC270 /* ModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
-		35F96F7220468EC9000FC270 /* ModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		35F96F7120468EC9000FC270 /* PageBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageBViewController.h; sourceTree = "<group>"; };
+		35F96F7220468EC9000FC270 /* PageBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageBViewController.m; sourceTree = "<group>"; };
 		35F96F7420468F17000FC270 /* BHServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHServices.h; sourceTree = "<group>"; };
 		35F96F762046950D000FC270 /* RouteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteManager.h; sourceTree = "<group>"; };
 		35F96F772046950D000FC270 /* RouteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteManager.m; sourceTree = "<group>"; };
@@ -55,6 +56,8 @@
 		35F96F7A20469716000FC270 /* RouteManager+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RouteManager+ModuleA.m"; sourceTree = "<group>"; };
 		35F96F7C2046982A000FC270 /* RouteManager+ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouteManager+ModuleB.h"; sourceTree = "<group>"; };
 		35F96F7D2046982A000FC270 /* RouteManager+ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RouteManager+ModuleB.m"; sourceTree = "<group>"; };
+		35F96F872046A333000FC270 /* PageB1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageB1ViewController.h; sourceTree = "<group>"; };
+		35F96F882046A333000FC270 /* PageB1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageB1ViewController.m; sourceTree = "<group>"; };
 		706D69587770FE95D90BEFD9 /* Pods-ModuleSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleSample/Pods-ModuleSample.debug.xcconfig"; sourceTree = "<group>"; };
 		71016093B4AEDF3CC95AA50A /* libPods-ModuleSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,16 +113,9 @@
 		35F96F5C20467DDA000FC270 /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				35F96F6020467EE2000FC270 /* ModuleA.h */,
-				35F96F6120467EE2000FC270 /* ModuleA.m */,
-				35F96F6520468653000FC270 /* HomeViewController.h */,
-				35F96F6620468653000FC270 /* HomeViewController.m */,
-				35F96F68204688A7000FC270 /* AppUISkeletonServiceImpl.h */,
-				35F96F69204688A7000FC270 /* AppUISkeletonServiceImpl.m */,
-				35F96F6B204689B4000FC270 /* ModuleAServiceImpl.h */,
-				35F96F6C204689B4000FC270 /* ModuleAServiceImpl.m */,
-				35F96F7920469716000FC270 /* RouteManager+ModuleA.h */,
-				35F96F7A20469716000FC270 /* RouteManager+ModuleA.m */,
+				35F96F822046A24D000FC270 /* Module */,
+				35F96F842046A27C000FC270 /* Business */,
+				35F96F832046A269000FC270 /* Service */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -127,12 +123,8 @@
 		35F96F5D20467DE0000FC270 /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
-				35F96F6E20468CDC000FC270 /* ModuleB.h */,
-				35F96F6F20468CDC000FC270 /* ModuleB.m */,
-				35F96F7120468EC9000FC270 /* ModuleBViewController.h */,
-				35F96F7220468EC9000FC270 /* ModuleBViewController.m */,
-				35F96F7C2046982A000FC270 /* RouteManager+ModuleB.h */,
-				35F96F7D2046982A000FC270 /* RouteManager+ModuleB.m */,
+				35F96F852046A2AA000FC270 /* Module */,
+				35F96F862046A2B0000FC270 /* Business */,
 			);
 			path = ModuleB;
 			sourceTree = "<group>";
@@ -154,6 +146,59 @@
 				35F96F772046950D000FC270 /* RouteManager.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		35F96F822046A24D000FC270 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				35F96F6020467EE2000FC270 /* ModuleA.h */,
+				35F96F6120467EE2000FC270 /* ModuleA.m */,
+				35F96F7920469716000FC270 /* RouteManager+ModuleA.h */,
+				35F96F7A20469716000FC270 /* RouteManager+ModuleA.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		35F96F832046A269000FC270 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				35F96F68204688A7000FC270 /* AppUISkeletonServiceImpl.h */,
+				35F96F69204688A7000FC270 /* AppUISkeletonServiceImpl.m */,
+				35F96F6B204689B4000FC270 /* ModuleAServiceImpl.h */,
+				35F96F6C204689B4000FC270 /* ModuleAServiceImpl.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		35F96F842046A27C000FC270 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				35F96F6520468653000FC270 /* HomeViewController.h */,
+				35F96F6620468653000FC270 /* HomeViewController.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		35F96F852046A2AA000FC270 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				35F96F6E20468CDC000FC270 /* ModuleB.h */,
+				35F96F6F20468CDC000FC270 /* ModuleB.m */,
+				35F96F7C2046982A000FC270 /* RouteManager+ModuleB.h */,
+				35F96F7D2046982A000FC270 /* RouteManager+ModuleB.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		35F96F862046A2B0000FC270 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				35F96F7120468EC9000FC270 /* PageBViewController.h */,
+				35F96F7220468EC9000FC270 /* PageBViewController.m */,
+				35F96F872046A333000FC270 /* PageB1ViewController.h */,
+				35F96F882046A333000FC270 /* PageB1ViewController.m */,
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 		5F8CCDB844B293834B8B4BC2 /* Frameworks */ = {
@@ -301,8 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F96F892046A333000FC270 /* PageB1ViewController.m in Sources */,
 				35F96F6D204689B4000FC270 /* ModuleAServiceImpl.m in Sources */,
-				35F96F7320468EC9000FC270 /* ModuleBViewController.m in Sources */,
+				35F96F7320468EC9000FC270 /* PageBViewController.m in Sources */,
 				35F96F5620465F16000FC270 /* main.m in Sources */,
 				35F96F7E2046982A000FC270 /* RouteManager+ModuleB.m in Sources */,
 				35F96F7020468CDC000FC270 /* ModuleB.m in Sources */,
