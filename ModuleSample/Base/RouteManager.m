@@ -9,6 +9,7 @@
 #import "RouteManager.h"
 #import <UIKit/UIKit.h>
 #import <BeeHive/BeeHive.h>
+#import <MGJRouter/MGJRouter.h>
 
 @implementation RouteManager
 
@@ -33,6 +34,13 @@
 - (UINavigationController *)rootViewController {
     BHAppDelegate *bhAppDelegate = (BHAppDelegate *)[UIApplication sharedApplication].delegate;
     return (UINavigationController *)bhAppDelegate.window.rootViewController;
+}
+
+- (void)tryToOpenURL:(NSURL *)url {
+    if (![url.scheme isEqualToString:@"ms"]) {
+        return;
+    }
+    [MGJRouter openURL:[url absoluteString]];
 }
 
 @end

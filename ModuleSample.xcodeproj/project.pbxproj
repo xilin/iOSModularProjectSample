@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		35F96F4820465F16000FC270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F4720465F16000FC270 /* AppDelegate.m */; };
-		35F96F4E20465F16000FC270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F96F4C20465F16000FC270 /* Main.storyboard */; };
 		35F96F5020465F16000FC270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F96F4F20465F16000FC270 /* Assets.xcassets */; };
 		35F96F5320465F16000FC270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F96F5120465F16000FC270 /* LaunchScreen.storyboard */; };
 		35F96F5620465F16000FC270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F96F5520465F16000FC270 /* main.m */; };
@@ -30,7 +29,6 @@
 		35F96F4320465F16000FC270 /* ModuleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F96F4620465F16000FC270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35F96F4720465F16000FC270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35F96F4D20465F16000FC270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35F96F4F20465F16000FC270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F96F5220465F16000FC270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35F96F5420465F16000FC270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				35F96F5D20467DE0000FC270 /* ModuleB */,
 				35F96F4620465F16000FC270 /* AppDelegate.h */,
 				35F96F4720465F16000FC270 /* AppDelegate.m */,
-				35F96F4C20465F16000FC270 /* Main.storyboard */,
 				35F96F4F20465F16000FC270 /* Assets.xcassets */,
 				35F96F5120465F16000FC270 /* LaunchScreen.storyboard */,
 				35F96F5420465F16000FC270 /* Info.plist */,
@@ -281,7 +278,6 @@
 			files = (
 				35F96F5320465F16000FC270 /* LaunchScreen.storyboard in Resources */,
 				35F96F5020465F16000FC270 /* Assets.xcassets in Resources */,
-				35F96F4E20465F16000FC270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,14 +360,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35F96F4C20465F16000FC270 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35F96F4D20465F16000FC270 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35F96F5120465F16000FC270 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -494,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModuleSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maitao.ModuleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModuleSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maitao.ModuleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -41,4 +41,11 @@ BH_EXPORT_MODULE(NO)
     [[RouteManager shareInstance] registerRouteForModuleA];
 }
 
+- (void)modOpenURL:(BHContext *)context {
+    if ([context.openURLItem.sourceApplication isEqualToString:@"com.tencent.xin"] &&
+        [context.openURLItem.openURL.absoluteString rangeOfString:@"pay/"].location != NSNotFound) {
+        // TODO handle payment url
+    }
+}
+
 @end

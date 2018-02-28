@@ -21,4 +21,6 @@ static NSString *const kRoutePageB1 = @"ms://pageB1";
 - (void)popToRoot;
 - (void)pushViewController:(UIViewController *)viewController;
 
+- (void)tryToOpenURL:(NSURL *)url;
+
 @end
